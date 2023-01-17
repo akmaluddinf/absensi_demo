@@ -73,7 +73,7 @@ function App() {
       </div>
 
       <div className='row' style={{ display: "flex", justifyContent: "center" }}>
-        <div className='col-md-2' style={{ display: "flex", justifyContent: "center" }}>
+        <div className='col-md-2' style={{ display: "flex", justifyContent: "center", marginBottom: "10px" }}>
           <Webcam
             imageSmoothing={true}
             screenshotQuality={1}
@@ -119,21 +119,21 @@ function App() {
               </tr>
               <tr>
                 <td>11:00</td>
-                <td>{cekJam <= 13 ? (<img src={imgSrc} alt="" />) : ""}</td>
+                <td>{cekJam <= 13 && cekJam >=11 ? (<img src={imgSrc} alt="" />) : ""}</td>
                 <td>{nama && cekJam <= 13 ? (<p>{nama}</p>) : ""}</td>
                 <td>{nama && cekJam <= 13 ? resultJam : ""}</td>
                 {/* <td>{nama && cekJam <= 13 ? resultTanggal : ""}</td> */}
               </tr>
               <tr>
                 <td>13:00</td>
-                <td>{cekJam <= 16 ? (<img src={imgSrc} alt="" />) : ""}</td>
+                <td>{cekJam <= 16 && cekJam >=13 ? (<img src={imgSrc} alt="" />) : ""}</td>
                 <td>{nama && cekJam <= 16 ? (<p>{nama}</p>) : ""}</td>
                 <td>{nama && cekJam <= 16 ? resultJam : ""}</td>
                 {/* <td>{nama && cekJam <= 16 ? resultTanggal : ""}</td> */}
               </tr>
               <tr>
                 <td>16:00</td>
-                <td>{cekJam <= 23 ? (<img src={imgSrc} alt="" />) : ""}</td>
+                <td>{cekJam <= 23 && cekJam >=16 ? (<img src={imgSrc} alt="" />) : ""}</td>
                 <td>{nama && cekJam <= 23 ? (<p>{nama}</p>) : ""}</td>
                 <td>{nama && cekJam <= 23 ? resultJam : ""}</td>
                 {/* <td>{nama && cekJam <= 23 ? resultTanggal : ""}</td> */}
