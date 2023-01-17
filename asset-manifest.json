@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/absensi_demo/static/css/main.073c9b0a.css",
-    "main.js": "/absensi_demo/static/js/main.03871e6f.js",
+    "main.js": "/absensi_demo/static/js/main.9fb8704a.js",
     "static/js/787.3a0ce2b1.chunk.js": "/absensi_demo/static/js/787.3a0ce2b1.chunk.js",
     "index.html": "/absensi_demo/index.html",
     "main.073c9b0a.css.map": "/absensi_demo/static/css/main.073c9b0a.css.map",
-    "main.03871e6f.js.map": "/absensi_demo/static/js/main.03871e6f.js.map",
+    "main.9fb8704a.js.map": "/absensi_demo/static/js/main.9fb8704a.js.map",
     "787.3a0ce2b1.chunk.js.map": "/absensi_demo/static/js/787.3a0ce2b1.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.073c9b0a.css",
-    "static/js/main.03871e6f.js"
+    "static/js/main.9fb8704a.js"
   ]
 }
